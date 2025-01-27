@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+main {
+    background-color: #343e3de5;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #607466;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+a {
+    color: #38E4AE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7BD389;
+}
+
+
+.paragrafo {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#sobre-mim {
+    font-family: 'Julius Sans One';
+    background-color: #607466;
+    color: white;
+    padding: 5px;
+    margin: 10px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+#projetos {
+    font-family: 'Gruppo', Arial, sans-serif;
+    background-image: linear-gradient(to right, #7BD389, #38E4AE);
+    padding: 5px;
+    
+}
+
+#contato {
+    background-color: #AEDCC0;
+    font-family: 'Thasadith', Arial, sans-serif;
+    padding: 5px;
+}

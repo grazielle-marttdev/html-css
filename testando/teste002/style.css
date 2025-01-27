@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #0C1821, #1B2A41, #324A5F);
+}
+
+main {
+    background-color: white;
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 280px;
+    width: 480px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+main {
+    width: 80%; /* 80% da largura da tela */
+    max-width: 480px; /* limite do tamanho máximo */
+    height: auto;
+
+}
+
+h1 {
+    font-family: 'Niconne', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Julius Sans One';
+    font-size: 12px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style: none; /* Remove os pontos de lista */
+    padding-left: 0; /* Remove preenchimento da lista */
+}
+
+li {
+    margin-bottom: 3px;
+    color: #C33C54;
+
+}
+
+li:hover {
+    color: #FEC0AA;
+}
